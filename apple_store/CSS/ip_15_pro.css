@@ -1,0 +1,144 @@
+/* Ogólne style */
+body {
+  font-family: "SF Pro Display", Arial, sans-serif;
+  margin: 0;
+  background-color: #f5f5f7;
+  color: #1d1d1f;
+}
+
+/* Nawigacja */
+.navbar {
+  background-color: #000;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 40px;
+}
+
+.logo img {
+  height: 40px;
+  width: auto;
+}
+
+.navbar nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 15px;
+  font-weight: 500;
+}
+
+.navbar nav a:hover {
+  color: #0071e3;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #000, #2e2e2e);
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero h1 {
+  font-size: 3.5em;
+  margin-bottom: 15px;
+}
+
+.hero p {
+  font-size: 1.3em;
+  margin-bottom: 25px;
+}
+
+.btn {
+  background-color: #0071e3;
+  color: white;
+  padding: 12px 30px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #005bb5;
+}
+
+/* Szczegóły produktu */
+.details {
+  padding: 60px 40px;
+  background-color: #fff;
+}
+
+.details-content {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  justify-content: center;
+}
+
+.main-img {
+  width: 350px;
+  border-radius: 20px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+}
+
+.info {
+  max-width: 500px;
+}
+
+.info h2 {
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.info ul {
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+.price {
+  font-size: 1.3em;
+  color: #1d1d1f;
+  margin-bottom: 20px;
+}
+
+/* Kolory */
+.colors {
+  padding: 60px 40px;
+  text-align: center;
+  background-color: #f9f9fb;
+}
+
+.colors h2 {
+  font-size: 2em;
+  margin-bottom: 40px;
+}
+
+.color-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 30px;
+}
+
+.color-item img {
+  width: 200px;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+  margin-bottom: 10px;
+}
+
+.color-item p {
+  font-size: 1em;
+  color: #333;
+}
+
+/* Stopka */
+footer {
+  background-color: #000;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9em;
+}
